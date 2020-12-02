@@ -1,2 +1,12 @@
 name: A workflow for my Hello World file
 on: push
+
+jobs :
+   build :
+     name : Hello world action se 
+    ejecuta en : ubuntu-latest 
+    steps :
+      - usa : actions / checkout @ v1 
+      - usa : ./action-a 
+        con :
+           MY_NAME : " Mona "
