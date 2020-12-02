@@ -1,17 +1,17 @@
-nombre : " Acciones de 
-saludo " descripción : " Saludar a alguien "
- autor : " octocat@github.com "
+name: "Hello Actions"
+description: "Greet someone"
+author: "octocat@github.com"
 
-entradas :
-   MY_NAME :
-     descripción : "A quién saludar "
-     obligatorio : verdadero 
-    predeterminado : " Mundo "
+inputs:
+  MY_NAME:
+    description: "Who to greet"
+    required: true
+    default: "World"
 
-se ejecuta :
-   usando : " docker "
-   imagen : " Dockerfile "
+runs:
+  using: "docker"
+  image: "Dockerfile"
 
-branding :
-   icon : " mic "
-   color : " purple "
+branding:
+  icon: "mic"
+  color: "purple"
