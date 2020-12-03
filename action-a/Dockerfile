@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM ubuntu:18.04
 
 ADD entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
