@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM alpine:3.10
 
 ADD entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
